@@ -200,7 +200,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import Image from "next/image";
-import slaaqpLogo from "src/images/slaaqpLogo.jpg";
+import slaaqpLogo from "../../../images/slaaqpLogo.jpg";
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { Menu, X } from "lucide-react";
 
