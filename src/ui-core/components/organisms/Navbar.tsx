@@ -199,8 +199,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
-import Image from "next/image";
-import slaaqpLogo from "../../../images/slaaqpLogo.jpg";
 import { FaInstagram, FaFacebookF, FaLinkedinIn } from "react-icons/fa";
 import { Menu, X } from "lucide-react";
 
@@ -225,7 +223,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4 md:px-10">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <Image src={slaaqpLogo} alt="SLAQPP Logo" className="w-14 h-14" />
+          <img src="/public/slaaqpLogo.jpg" alt="SLAQPP Logo" className="w-14 h-14" />
           <Link href="/" className="text-xl font-bold hover:text-gray-300">
             SLAAQP
           </Link>
