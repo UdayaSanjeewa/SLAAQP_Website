@@ -225,7 +225,7 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center px-4 md:px-10">
         {/* Logo */}
         <div className="flex items-center space-x-3">
-          <Image src={slaaqpLogo} alt="SLAQPP Logo" className="w-14 h-14" />
+          <img src="/public/slaaqpLogo.jpg" alt="SLAQPP Logo" className="w-14 h-14" />
           <Link href="/" className="text-xl font-bold hover:text-gray-300">
             SLAAQP
           </Link>
