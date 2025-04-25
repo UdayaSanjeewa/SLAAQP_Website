@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 
 const ResearchConferencePartOne = () => {
   return (
@@ -10,11 +10,12 @@ const ResearchConferencePartOne = () => {
 
       <div className="flex flex-col md:flex-row md:gap-6 lg:gap-0">
         <div className="md:w-[44%]">
-          <Image
+          <img
             src="/slaaqpImages/ResearchConference.jpg" // Ensure this image is placed in the public folder
             alt="ICQCC 2024 Research Conference Poster"
-            width={460}
-            height={800}
+            // width={460}
+            // height={800}
+            className="w-[460px] h-[800px]"
           />
         </div>
 

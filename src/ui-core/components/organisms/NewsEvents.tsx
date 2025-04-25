@@ -1,4 +1,4 @@
-import Image, { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image';
 import React from 'react';
 
 interface EventCardProps {
@@ -12,7 +12,7 @@ interface EventCardProps {
 const EventCard: React.FC<EventCardProps> = ({ date, image, title, datetime, location }) => (
   <div className="bg-white rounded-lg overflow-hidden max-w-sm">
     <div className="relative mt-16">
-      <Image src={image} alt={title} className="w-full h-auto" />
+      <img src={image.src} alt={title} className="w-full h-auto" />
       <div className="absolute -top-10 left-0 bg-[#f7dc79] text-slate-800 font-semibold px-7 py-3 text-lg">
         {date}
       </div>

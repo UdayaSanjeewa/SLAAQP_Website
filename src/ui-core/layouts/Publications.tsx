@@ -1,5 +1,4 @@
 // components/Publications.tsx
-import Image from "next/image";
 import React from "react";
 import QualityControlCircleGuide from "/public/slaaqpImages/QualityControlCircleWorkbook.jpg";
 import BookImage01 from "/public/slaaqpImages/QCCBookpage1.jpg";
@@ -12,11 +11,11 @@ const Publications = () => {
       <div className="grid md:grid-cols-2 lg:gap-2 items-start gap-6">
         {/* Book Cover */}
         <div className="flex justify-center">
-          <Image
-            src={QualityControlCircleGuide} // Make sure this file is in your public folder or update path accordingly
+          <img
+            src={QualityControlCircleGuide.src} // Make sure this file is in your public folder or update path accordingly
             alt="Quality Control Circle Guide"
-            width={540}
-            className="rounded shadow-md"
+            // width={540}
+            className="rounded shadow-md w-[540px]"
           />
         </div>
 
@@ -26,8 +25,8 @@ const Publications = () => {
             Quality Control Circle Guide For Productivity Improvement
           </h3>
           <p className="text-lg text-gray-500 font-semibold pt-6">Discount Price – Rs. 1650</p>
-          <Image src={BookImage01} alt="book 01 image" width={600} />
-          <Image src={BookImage02} alt="book 02 image" width={600} />
+          <img src={BookImage01.src} alt="book 01 image" /* width={600} */ className="w-[600px]" />
+          <img src={BookImage02.src} alt="book 02 image" /* width={600} */ className="w-[600px]" />
         </div>
       </div>
       </div>

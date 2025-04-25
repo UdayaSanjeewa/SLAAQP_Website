@@ -1,4 +1,3 @@
-import Image from "next/image";
 import React from "react";
 import Icqcc2024BusinessImage from "/public/slaaqpImages/icqcc2024business.jpg";
 
@@ -12,7 +11,7 @@ function IcqccBusinessSection() {
       <div className="flex flex-col lg:flex-row gap-8 mb-12">
         {/* Left: Image */}
         <div className="flex-shrink-0">
-          <Image src={Icqcc2024BusinessImage} alt="icqcc business image" width={560} />
+          <img src={Icqcc2024BusinessImage.src} alt="icqcc business image" /* width={560} */ className="w-[560px]" />
         </div>
 
         {/* Right: Text */}

@@ -1,6 +1,6 @@
 import { FC } from "react";
 import { FaFacebookF, FaTwitter, FaLinkedinIn } from "react-icons/fa";
-import Image, { StaticImageData } from "next/image";
+import { StaticImageData } from "next/image";
 import Image01 from "/public/CouncilMembers/SuraniSharmalee.jpeg";
 import Image02 from "/public/CouncilMembers/WipulKularathna.jpg";
 import Image03 from "/public/CouncilMembers/AjithWeeratunga.jpg";
@@ -123,8 +123,8 @@ const CouncilMembersSection: FC = () => {
               <div className="relative w-30 h-30 bg-gray-200 overflow-hidden">
                 {/* Replace with real image if available */}
                 {member.imageUrl ? (
-                  <Image
-                    src={member.imageUrl}
+                  <img
+                    src={member.imageUrl.src}
                     alt={member.name}
                     className="object-cover w-full h-full"
                   />

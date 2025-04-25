@@ -118,7 +118,6 @@ import {
   KeenSliderInstance,
 } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
-import Image from "next/image";
 
 // Autoplay plugin
 const AutoplayPlugin: KeenSliderPlugin = (slider: KeenSliderInstance) => {
@@ -207,12 +206,12 @@ function Welcome() {
           <div ref={sliderRef} className="keen-slider rounded-xl overflow-hidden">
             {slides.map((src, index) => (
               <div key={index} className="keen-slider__slide min-w-full">
-                <Image
+                <img
                   src={src}
                   alt={`Slide ${index + 1}`}
                   className="w-full h-full object-cover"
-                  width={600}
-                  height={100}
+                  // width={600}
+                  // height={100}
                 />
               </div>
             ))}

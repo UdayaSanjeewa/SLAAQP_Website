@@ -1,6 +1,5 @@
 import Navbar from "@/ui-core/components/organisms/Navbar";
 import Welcome from "@/ui-core/layouts/Welcome";
-import Image from "next/image";
 import "keen-slider/keen-slider.min.css";
 import Details from "@/ui-core/layouts/Details";
 import Organization from "@/ui-core/layouts/Organization";

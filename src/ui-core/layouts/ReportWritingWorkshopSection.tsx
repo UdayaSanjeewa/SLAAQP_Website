@@ -1,5 +1,4 @@
 // components/ReportWritingWorkshopSection.tsx
-import Image from "next/image";
 import { Button } from "../components/atoms/Button";
 import {Menu} from "lucide-react";
 
@@ -13,11 +12,11 @@ const ReportWritingWorkshopSection = () => {
             10 April
           </div>
           <div className="overflow-hidden shadow-lg">
-            <Image
+            <img
               src="/programsImages/ReportWrittingWorkshop.png"
               alt="Report Writing Workshop Poster"
-              width={600}
-              height={800}
+              // width={600}
+              // height={800}
               className="w-full h-auto"
             />
           </div>

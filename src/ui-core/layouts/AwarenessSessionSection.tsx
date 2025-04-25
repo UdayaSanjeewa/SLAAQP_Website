@@ -1,5 +1,4 @@
 // components/AwarenessSessionSection.tsx
-import Image from "next/image";
 import { Button } from "../components/atoms/Button";
 import { Calendar, Menu } from "lucide-react";
 import RegisterButton from "../components/molecules/RegisterButton";
@@ -15,11 +14,11 @@ const AwarenessSessionSection = () => {
         <div className="h-1 bg-[#f7e6b4] w-28"></div>
 
         <div className="bg-white overflow-hidden shadow-lg max-w-3xl mx-auto mt-6">
-          <Image
+          <img
             src="/programsImages/NCQPAwarenessSession2025.png"
             alt="NCQP Awareness Session Poster"
-            width={768}
-            height={903}
+            // width={768}
+            // height={903}
             className="w-full h-auto"
           />
         </div>

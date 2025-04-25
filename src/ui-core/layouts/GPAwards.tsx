@@ -1,7 +1,6 @@
 // components/GPAwards.tsx
 
 import { FileDown, Send } from "lucide-react";
-import Image from "next/image";
 import Link from "next/link";
 
 const GPAwards = () => {
@@ -47,11 +46,11 @@ const GPAwards = () => {
       </div>
 
       <div className="mt-4 border rounded shadow overflow-hidden lg:w-[65%]">
-        <Image
+        <img
           src="/GPAwardsImages/ClosingDateMonday11.png"
           alt="Green Productivity Award 2022"
-          width={800}
-          height={1000}
+          // width={800}
+          // height={1000}
           className="w-full h-auto"
         />
       </div>

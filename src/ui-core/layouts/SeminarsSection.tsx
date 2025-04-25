@@ -1,5 +1,4 @@
 // components/SeminarsSection.tsx
-import Image from "next/image";
 
 const seminars = [
   {
@@ -41,11 +40,11 @@ const SeminarsSection = () => {
                   {seminar.tag}
                 </div>
                 <div className="overflow-hidden shadow-md">
-                  <Image
+                  <img
                     src={seminar.image}
                     alt={seminar.title}
-                    width={400}
-                    height={250}
+                    // width={400}
+                    // height={250}
                     className="w-full h-52 object-cover"
                   />
                 </div>

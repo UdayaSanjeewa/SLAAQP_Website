@@ -1,5 +1,4 @@
 import { FC } from "react";
-import Image from "next/image";
 import NcqpPoster from "/public/slaaqpImages/AdvancementofQualityProductivity.png"; // Use the appropriate image name or update if different
 import Link from "next/link";
 
@@ -147,12 +146,12 @@ const NcqpRegistrationSection: FC = () => {
           {/* Right Side - Poster Image */}
           <div className="lg:w-[50%] mt-8 lg:mt-0">
             <h1 className="text-5xl font-bold mb-4 text-center lg:text-left">NCQP 2025</h1>
-            <Image
-              src={NcqpPoster}
+            <img
+              src={NcqpPoster.src}
               alt="NCQP 2025 Poster"
-              width={760}
-              height={600}
-              className="rounded shadow-lg"
+              // width={760}
+              // height={600}
+              className="rounded shadow-lg w-[760px] h-[600px]"
             />
           </div>
         </div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import Image, { StaticImageData } from 'next/image';
+import { StaticImageData } from 'next/image';
 
 interface ImageFormProps {
   image: StaticImageData;
@@ -17,12 +17,13 @@ const ImageForm: React.FC<ImageFormProps> = ({ image, title, date, time, venue, 
       <div className='container mx-auto flex md:flex-row flex-col lg:px-0 px-3'>
       {/* Image Section */}
       <div id="div1" className="w-full md:w-1/2 h-64 md:h-full flex justify-end items-center md:mb-0 mb-44">
-        <Image
-          src={image}
+        <img
+          src={image.src}
           alt="Training Event"
-          width={530}
-          height={750}
-          priority
+          className='w-[530px] h-[750px]'
+          // width={530}
+          // height={750}
+          // priority
         />
       </div>
 
