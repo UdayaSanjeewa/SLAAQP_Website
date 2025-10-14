@@ -1,16 +1,16 @@
 import React from 'react'
-import img1 from '/public/slaaqpImages/Industry4Workshop.png';
+import img1 from '/public/slaaqpImages/Img1.jpeg';
 import img2 from '/public/slaaqpImages/QCCAwarenessSessionNew.png';
 import img3 from '/public/slaaqpImages/GreenProductivity2022AwarenessSession.png';
 import NewsEvents from '../components/organisms/NewsEvents';
 
 const eventData = [
     {
-      date: '18 January',
+      date: '25 October',
       image: img1,
-      title: 'Industry 4.0 Workshop',
-      datetime: '18th January 2024 @ 09:00 am to 4.30pm',
-      location: 'Jaic Hilton, Colombo',
+      title: 'Boost Efficiency Enhance Productivity Improve Quality Standards',
+      datetime: '25th October 2025 @ 08:30 am to 5.00pm',
+      location: 'Postgraduate Institute of Management (PIM)',
     },
     {
       date: '31 January',
